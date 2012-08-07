@@ -1,26 +1,23 @@
-PROMPT="%n@%m:%/
-`date +%a` `date +%m`/`date +%d` %@ %h > "
-HISTSIZE=2000
-HISTFILE=~/.zsh_history
-SAVEHIST=2000
-EDITOR=vim
+# My prompt back in the day .circa 1997
+#PROMPT="%n@%m:%/
+#`date +%a` `date +%m`/`date +%d` %@ %h > "
 
+HISTSIZE=200000
+SAVEHIST=200000
+HISTFILE=~/.zsh_history
+
+EDITOR=vim
+GIT_EDITOR=vim
 
 autoload -U compinit
 compinit
 
 autoload -U promptinit
 promptinit
+
 prompt clint
-
 bindkey -v
-
-#alias ls='ls -F --color'
-#case $TERM in
-#     xterm*)
-#	    precmd () {print -Pn "\e]0;%n@%m: %~\a"}
-#		;;
-#esac
+bindkey '^R' history-incremental-search-backward
 
 
 #n start_agent {
@@ -31,15 +28,3 @@ bindkey -v
 #. "${SSH_ENV}" > /dev/null
 #/usr/bin/ssh-add;
 #}
-#
-# Source SSH settings, if applicable
-#
-# if [ -f "${SSH_ENV}" ]; then
-# . "${SSH_ENV}" > /dev/null
-# #ps ${SSH_AGENT_PID} doesn’t work under cywgin
-# ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
-# start_agent;
-# }
-# else
-# start_agent;
-# fi
