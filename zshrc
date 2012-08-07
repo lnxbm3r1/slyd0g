@@ -19,7 +19,6 @@ prompt clint
 bindkey -v
 bindkey '^R' history-incremental-search-backward
 
-
 #n start_agent {
 #echo "Initialising new SSH agent..."
 #/usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
