@@ -2,12 +2,12 @@
 #PROMPT="%n@%m:%/
 #`date +%a` `date +%m`/`date +%d` %@ %h > "
 
-HISTSIZE=200000
-SAVEHIST=200000
-HISTFILE=~/.zsh_history
+export HISTSIZE=200000
+export SAVEHIST=200000
+export HISTFILE=~/.zsh_history
 
-EDITOR=vim
-GIT_EDITOR=vim
+export EDITOR=vim
+export GIT_EDITOR=vim
 
 autoload -U compinit
 compinit
@@ -18,6 +18,7 @@ promptinit
 prompt clint
 bindkey -v
 bindkey '^R' history-incremental-search-backward
+
 
 #n start_agent {
 #echo "Initialising new SSH agent..."

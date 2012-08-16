@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">0eedc1e3-0724-451e-afe3-6117c9b4fb20</dc:identifier>
+        <dc:title>RFC2401 - Security Architecture for the Internet Protocol</dc:title>
+        <dc:creator opf:file-as="R. Atkinson, S. Kent" opf:role="aut">R. Atkinson, S. Kent</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (0.8.38) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2012-08-10T08:34:14+00:00</dc:date>
+        <dc:publisher>Network Working Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:subject>Security Architecture for the Internet Protocol</dc:subject>
+        <meta content="{&quot;R. Atkinson, S. Kent&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="RFCs" name="calibre:series"/>
+        <meta content="1" name="calibre:series_index"/>
+        <meta content="2012-08-10T08:34:14+00:00" name="calibre:timestamp"/>
+        <meta content="RFC2401 - Security Architecture for the Internet Protocol" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" type="cover" title="Cover"/>
+    </guide>
+</package>
