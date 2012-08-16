@@ -1,4 +1,4 @@
 slyd0g-vim
 ==========
 
-vim stuff
+My zsh shell and vim customizations.
