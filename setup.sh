@@ -1,5 +1,4 @@
 #!/bin/bash -x
-#
 # setup my local env
 # syntax highlighting, zshrc
 
