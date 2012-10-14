@@ -1,4 +1,3 @@
-slyd0g-vim
-==========
-
-My zsh shell and vim customizations.
+slyd0g
+======
+my zsh shell and vim configs
