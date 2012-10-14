@@ -1,6 +1,7 @@
 #!/bin/bash -x
+#
 # setup my local env
-# syntax highlighting, zshrc
+# vim syntax highlighting, .zshrc config
 
 /bin/mkdir -v ~/.vim
 /bin/cp -arv ftdetect ftplugin indent syntax ~/.vim/
